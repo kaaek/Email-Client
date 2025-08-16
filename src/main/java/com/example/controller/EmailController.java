@@ -9,7 +9,7 @@ import com.example.dto.EmailRequest;
 import com.example.service.EmailService;
 
 @RestController
-@RequestMapping("/send-mail")
+@RequestMapping("/send-email")
 public class EmailController {
     
     private final EmailService emailService;
